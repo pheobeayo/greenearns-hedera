@@ -35,13 +35,16 @@ Enhance User Trust within the platform through user ratings, reviews, and transp
 
 ## Technical Details
 
-Greenearns is currently deployed on the Ambrosus testnet. This testnet ensures that the platform’s blockchain-based transactions and token rewards system are secure and functional. 
+Greenearns is currently deployed on the Hedera testnet. This testnet ensures that the platform’s blockchain-based transactions and token rewards system are secure and functional. 
 
 ```bash
 
-GreenEarns : https://testnet.airdao.io/explorer/address/0x0C5D7fbB6409a3CA7E446d829D9e186c965e547E/
+GreenEarns : 0x25d3195984A693886103312eA3FA53D738c951B7
 
-GreenToken : GreenToken  deployed to 0x6bC09DF5731928F1610baED01003f6eC3db99327
+GreenToken : GreenToken  deployed to 
+
+0x3D98a2f7dFdAB3c09A28e95f5e49f26be87f7f95
+
 
 ```
 These deployments provide the foundation for secure, transparent transactions within the decentralized marketplace.
@@ -60,7 +63,7 @@ https://www.youtube.com/watch?v=1WLYIXa3vT0
 
 ```bash
 
-https://greenearns-dao.vercel.app/
+https://greenearns-hedera.vercel.app/
 
 ```
 

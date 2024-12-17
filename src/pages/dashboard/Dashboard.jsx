@@ -8,7 +8,7 @@ const Dashboard = () => {
     <main className="bg-white">
        <div className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
         <div className='lg:w-[60%] md:w-[60%] w-[100%] p-8'>
-            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>Recyclearns - Where environmental consciousness meets blockchain innovation</h2>
+            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>Greenearns - Where environmental consciousness meets blockchain innovation</h2>
             <p>To get started listing your eco friendly product, create a seller's profile.</p>
             <div className='mt-6'>
             <button onClick={() => navigate('/dashboard/createprofile')}  className="bg-white text-[#427142] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] lg:w-[50%] md:w-[50%] w-[100%] my-2 hover:bg-green-300 hover:font-bold">Create Profile</button>
