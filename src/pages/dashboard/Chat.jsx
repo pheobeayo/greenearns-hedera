@@ -6,7 +6,7 @@ const Chat = () => {
     <main className="bg-white">
       <div className='grid max-sm:grid-cols-1 gap-2 gap-y-4 sm:grid-cols-1 md:grid-cols-2 '>
         <div className="bg-[#DBECDB] h-[100vh]">
-          <h1 className="text-[#427142] mt-10 px-10 font-bold font-serif">Your Messages</h1>
+          <h1 className="text-[#015C28] mt-10 px-10 font-bold font-serif">Your Messages</h1>
         </div>
         <div className="bg-white h-[100vh]">
           <div className="p-40">

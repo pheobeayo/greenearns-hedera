@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useWeb3ModalAccount } from "@web3modal/ethers/react";
 import { Link } from "react-router-dom";
 import useGetSeller from "../Hooks/useGetSeller";
@@ -18,6 +18,11 @@ const UserSellerProfile = () => {
       setIsLoading(false);
     }
   }, [allProduct, allSeller]);
+
+  const convertToWholeNumber = (formattedNumber) => {
+    const number = parseFloat(formattedNumber);
+    return Math.floor(number);
+  };
 
   const userSeller = allSeller.find((data) => data?.address === address);
   const userProducts = allProduct.filter((info) => info?.address === address);
@@ -76,7 +81,7 @@ const UserSellerProfile = () => {
                 <p className="flex justify-between my-4 font-bold">
                   Price{" "}
                   <span>
-                    {formatUnits(info.price)} AMB
+                    {convertToWholeNumber(formatUnits(info.price))} HBAR
                   </span>{" "}
                 </p>
                 <button className="my-4 border w-[100%] py-2 px-4 border-[#427142] text-[#427142] rounded-lg">

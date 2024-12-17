@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
         <div className='lg:w-[60%] md:w-[60%] w-[100%] p-8'>
-            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>EcoRewards - Where environmental consciousness meets blockchain innovation</h2>
+            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>Recyclearns - Where environmental consciousness meets blockchain innovation</h2>
             <p>Trade recyclables on the blockchain, earn rewards, and power the green revolution with every sale and purchase</p>
             <div className='mt-6'>
             <AddProduct />

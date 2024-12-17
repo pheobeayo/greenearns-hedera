@@ -1,9 +1,10 @@
-import  { useState} from 'react'
+import  { useState, useEffect } from 'react'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { getProvider }from '../constants/providers'
 import { isSupportedChain } from '../connection/index'
 import { getGreenEarnContract } from '../constants/contract';
+import { ethers } from "ethers";
 import {
   useWeb3ModalAccount,
   useWeb3ModalProvider,
@@ -19,8 +20,8 @@ const style = {
     width: 400,
     borderRadius: 10,
     boxShadow: 24,
-    border: '1px solid #427142',
-    backgroundColor: '#427142',
+    border: '1px solid #42714262',
+    backgroundColor: '#1E1D34',
     p: 4,
   };
 
@@ -67,7 +68,7 @@ const EditProfile = ({id}) => {
     
           setOpen(false)
         }
-      }
+      };
   return (
     <div>
         <div>

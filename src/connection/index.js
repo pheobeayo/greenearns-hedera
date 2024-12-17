@@ -1,15 +1,15 @@
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers/react'
 
-export const SUPPORTED_CHAIN = 22040;
+export const SUPPORTED_CHAIN = 296;
 
 export const isSupportedChain = (chainId) =>
   Number(chainId) === SUPPORTED_CHAIN;
 
-const AirDao = {
+const HederaTestnet = {
   chainId: SUPPORTED_CHAIN,
-  name: "airdao testnet",
-  currency: "AMB",
-  explorerUrl: "https://testnet.airdao.io/explorer/",
+  name: "hedera testnet",
+  currency: "HBAR",
+  explorerUrl: "https://hashscan.io/testnet/dashboard",
   rpcUrl: import.meta.env.VITE_INFURA_RPC,
 };
 
@@ -22,12 +22,11 @@ const metadata = {
 
 export const configWeb3Modal = () => createWeb3Modal({
   ethersConfig: defaultConfig({ metadata }),
-  chains: [AirDao],
+  chains: [HederaTestnet],
   projectId: import.meta.env.VITE_PROJECTID,
   enableAnalytics: false,
   themeVariables: {
-    '--w3m-accent': '#427142',
-    '--w3m-color-mix-strength': '40',
+    '--w3m-accent': '#015C28',
     '--w3m-border-radius-master': '10'
   }
 })

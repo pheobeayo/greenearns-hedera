@@ -166,7 +166,7 @@ const AddProduct = () => {
           <input type="text" placeholder='Product Name' className="rounded-lg w-[100%] text-white p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" onChange={(e) => setProductName(e.target.value)} />
           <input type="text" placeholder='Image Url' className="rounded-lg w-[100%] text-white border border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" value={imageUrl} readOnly />
           <input type="text" placeholder='Description' className="rounded-lg w-[100%] border text-white border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" onChange={(e) => setProductDesc(e.target.value)} />
-          <input type="text" placeholder='Quantity' onChange={(e) => setProductWeight(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
+          <input type="text" placeholder='Weight' onChange={(e) => setProductWeight(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
           <input type="text" placeholder='Price' onChange={(e) => setProductPrice(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
           <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleAddProduct}>List Product &rarr;</button>
        </div>

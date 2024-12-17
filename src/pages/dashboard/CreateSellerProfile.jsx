@@ -16,16 +16,11 @@ const CreateSellerProfile = () => {
     return `${start}...`;
   };
 
-  const convertToWholeNumber = (formattedNumber) => {
-    const number = parseFloat(formattedNumber);
-    return Math.floor(number);
-  };
-
   return (
    <main>
      <div className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
         <div className='lg:w-[60%] md:w-[60%] w-[100%] p-8'>
-            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>EcoRewards - Where environmental consciousness meets blockchain innovation</h2>
+            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>GreeenEarns - Where environmental consciousness meets blockchain innovation</h2>
             <p>To get started listing your eco friendly product, create a seller's profile.</p>
             <div className='mt-6'>
             <CreateProfile />
@@ -46,7 +41,7 @@ const CreateSellerProfile = () => {
         <p className='flex justify-between my-4'>Location <span>{info.location}</span></p>
         <p className='flex justify-between my-4'>Products <span>{info.product}</span></p>
         <p className='flex justify-between my-4'>Seller's wallet address: <span>{truncateAddress(info.address)}</span></p>
-        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{convertToWholeNumber(formatUnits(info.payment))}AMB</span> </p>
+        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{formatUnits(info.payment)} HBAR</span> </p>
        {info.address === address && ( <EditProfile id={Number(info.id)} />)}
         </div>
         )

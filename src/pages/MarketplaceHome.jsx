@@ -21,6 +21,11 @@ const MarketplaceHome = () => {
         }
     }, [allProduct]);
 
+    const convertToWholeNumber = (formattedNumber) => {
+        const number = parseFloat(formattedNumber);
+        return Math.floor(number);
+    };
+
     const handlePageChange = (event, value) => {
         setCurrentPage(value);
     };
@@ -42,8 +47,8 @@ const MarketplaceHome = () => {
                                     <h3 className='font-bold mt-4 lg:text-[20px] md:text-[20px] text-[18px] capitalise font-titiliumweb'>{info.name}</h3>
                                     <p className='flex justify-between my-4'>Quantity <span>{Number(info.weight)}</span></p>
                                     <p className='flex justify-between my-4'>Seller &apos;s location <span>{info.location}</span></p>
-                                    <p className='flex justify-between my-4 font-bold'>Price <span>{formatUnits(info.price)} AMB</span></p>
-                                    <button className='my-4 border w-[100%] py-2 px-4 border-[#427142] bg-white text-[##427142] rounded-lg'>View details</button>
+                                    <p className='flex justify-between my-4 font-bold'>Price <span>{convertToWholeNumber(formatUnits(info.price))} HBAR </span></p>
+                                    <button className='my-4 border w-[100%] py-2 px-4 border-[#427142] bg-white text-[#427142] rounded-lg'>View details</button>
                                 </Link>
                             </div>
                         ))}

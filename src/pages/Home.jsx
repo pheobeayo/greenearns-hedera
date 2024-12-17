@@ -1,4 +1,3 @@
-import React from "react";
 import image1 from "../assets/heroimage1.svg";
 import image2 from "../assets/heroimage2.svg";
 import bgImg from "../assets/ornament.svg";
@@ -30,7 +29,7 @@ const Home = () => {
         <div className="lg:w-[500px] lg:h-[500px] md:w-[500px] md:h-[500px] w-[250px] h-[250px] bg-[#015C28]/20 blur-[80px] absolute top-0 left-0 rounded-full"></div>
         <div className="flex flex-col lg:flex-row md:flex-row justify-between lg:w-[90%] md:w-[90%] w-[100%] mx-auto mb-10">
           <div className="flex justify-between items-center lg:w-[45%] md:w-[45%]w-[100%]">
-            <img src={bgImg} alt="" className="hidden lg:block md:block" />
+            <img src={bgImg} alt="" className="hidden lg:block md:block"/>
             <img src={image2} alt="" className=" ml-auto mb-4" />
           </div>
           <div className="flex justify-between items-center lg:w-[52%] md:w-[52%] w-[100%] ">
@@ -42,7 +41,7 @@ const Home = () => {
       <section className="bg-white py-20">
         <div className="lg:w-[90%] md:w-[90%] w-[100%] mx-auto">
           <h2 className="lg:text-[32px] md:text-[32px] text-[24px] font-[700] text-[#015C28] lg:w-[70%] md:w-[70%] w-[100%] my-12 font-titiliumweb text-center lg:text-left md:text-left">
-            Welcome to GreenEarns, where environmental consciousness meets
+            Welcome to Recyclearns, where environmental consciousness meets
             blockchain innovation
           </h2>
           <div className="flex flex-col lg:flex-row md:flex-row justify-between">
@@ -57,18 +56,18 @@ const Home = () => {
             </div>
             <div className="py-6 border-t-2 border-[#015C28] lg:w-[30%] md:w-[30%] w-[90%] mx-auto mb-4">
               <h3 className="lg:text-[24px] md:text-[24px] text-[18px] font-[700] font-titiliumweb mb-4">
-                Be a Part of the Future
+              Be a Part of the Future
               </h3>
               <p>
-                GreenEarns harnesses the potential of blockchain and technology for a better world.
+              Recyclearns harnesses the potential of blockchain and technology for a better world. 
               </p>
             </div>
             <div className="py-6 border-t-2 border-[#015C28] lg:w-[30%] md:w-[30%] w-[90%] mx-auto mb-4">
               <h3 className="lg:text-[24px] md:text-[24px] text-[18px] font-[700] font-titiliumweb mb-4">
-                Simple and Engaging
+              Simple and Engaging
               </h3>
               <p>
-                GreenEarns makes sustainability accessible and engaging. Embrace the future of sustainability
+              Recyclearns makes sustainability accessible and engaging. Embrace the future of sustainability 
               </p>
             </div>
           </div>

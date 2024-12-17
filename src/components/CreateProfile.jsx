@@ -1,10 +1,10 @@
-import  { useState } from 'react'
+import  { useState, useEffect } from 'react'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { getProvider }from '../constants/providers'
 import { isSupportedChain } from '../connection/index'
 import { getGreenEarnContract } from '../constants/contract';
-
+import { ethers } from "ethers";
 import {
   useWeb3ModalAccount,
   useWeb3ModalProvider,
@@ -68,7 +68,7 @@ const CreateProfile = () => {
             
           setOpen(false)
         }
-      }
+      };
   return (
     <div>
         <div>

@@ -65,7 +65,7 @@ const ApprovePayment = ({id, index}) => {
 
   return (
     <div>
-      <button className="bg-white text-[#427142] border border-[#427142] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Approve Payment</button>
+      <button className="bg-white text-[#0C3B45] border border-[#0C3B45] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Approve Payment</button>
     <Modal
         open={open}
         onClose={handleClose}
@@ -78,7 +78,7 @@ const ApprovePayment = ({id, index}) => {
                <TiWarning className='text-4xl'/>
             <p className='my-4 text-center'>Have you gotten your goods? If yes approve else cancel the transaction. </p>
             </div>
-          <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleApproval}>Approve &rarr;</button>
+          <button className="bg-[#0C3B45] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleApproval}>Approve &rarr;</button>
         </Box>
       </Modal>
       
