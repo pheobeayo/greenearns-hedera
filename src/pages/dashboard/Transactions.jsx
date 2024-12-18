@@ -93,7 +93,7 @@ const Transactions = () => {
 
   return (
     <main>
-      <section className="flex flex-col lg:flex-row md:flex-row bg-[#0C3B45] rounded-[20px] w-[100%] text-white">
+      <section className="flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white">
         <div className="lg:w-[60%] md:w-[60%] w-[100%] p-8">
           <h2 className="lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4">
             GreeenEarns - Where environmental consciousness meets blockchain
@@ -107,13 +107,13 @@ const Transactions = () => {
           <div className="mt-6">
             <button
               onClick={() => navigate("/dashboard/marketplace")}
-              className="bg-white text-[#0C3B45] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] lg:w-[50%] md:w-[50%] w-[100%] my-2 hover:bg-[#C7D5D8] hover:font-bold"
+              className="bg-white text-[#427142] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] lg:w-[50%] md:w-[50%] w-[100%] my-2 hover:bg-[#C7D5D8] hover:font-bold"
             >
               Buy Product
             </button>
           </div>
         </div>
-        <div className="lg:w-[40%] md:w-[40%] w-[100%] bg-[#C7D5D8] lg:rounded-tl-[50%] md:rounded-tl-[50%] lg:rounded-bl-[50%] rounded-tl-[50%] rounded-tr-[50%] text-right lg:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] p-6 flex justify-center">
+        <div className="lg:w-[40%] md:w-[40%] w-[100%] bg-[#DBECDB] lg:rounded-tl-[50%] md:rounded-tl-[50%] lg:rounded-bl-[50%] rounded-tl-[50%] rounded-tr-[50%] text-right lg:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] p-6 flex justify-center">
           <img src={bgIcon} alt="dashboard" className="w-[70%] mx-auto" />
         </div>
       </section>
