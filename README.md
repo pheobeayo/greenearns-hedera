@@ -54,7 +54,7 @@ These deployments provide the foundation for secure, transparent transactions wi
 
 ```bash
 
-https://www.youtube.com/watch?v=1WLYIXa3vT0
+https://youtu.be/UBxgmnt0UGs
 
 ```
 
@@ -71,7 +71,7 @@ https://greenearns-hedera.vercel.app/
 
 ```bash
 
-https://www.canva.com/design/DAGYINDKuFU/b-k3CpD3PfIA1dpmjs3cyA/view?utm_content=DAGYINDKuFU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+https://www.canva.com/design/DAGZioUBWtc/oGoqWZW4xCq7_Kb5M20f3w/view?utm_content=DAGZioUBWtc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h82a8fcbb5c#1
 
 
 ```
