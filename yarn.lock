@@ -2236,9 +2236,9 @@ cross-fetch@^3.1.4:
     node-fetch "^2.6.12"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
-  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
+  integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -3052,7 +3052,7 @@ graphemer@^1.4.0:
     "@web3modal/ethers" "^5.0.3"
     ethers "^6.13.1"
     framer-motion "^11.3.17"
-    greenearns "file:../../../AppData/Local/Yarn/Cache/v6/npm-greenearns-0.0.0-5668b07c-02c7-42c4-bc53-d48bd7254285-1733096952461/node_modules/greenearns"
+    greenearns "file:."
     hamburger-react "^2.5.1"
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -3062,6 +3062,7 @@ graphemer@^1.4.0:
     react-router-dom "^6.23.1"
     react-toast "^1.0.3"
     react-toastify "^10.0.5"
+    update-browserslist-db "^1.1.1"
 
 h3@^1.10.2, h3@^1.11.1:
   version "1.12.0"
